@@ -53,7 +53,7 @@ btnGetJson.addEventListener("click", function () {
     console.log(params.get("nombre"))
     console.log("url?" + params)
     console.log("------")
-    // es un error enviar datos json con llamada get
+    // es un error enviar datos json con llamada gett
     console.log("{" + "name:'" + params.get("nombre") + "'," + "pass:'" + params.get("pass") + "'}");
     var params2 = "{" + "name:'" + params.get("nombre") + "'," + "pass:'" + params.get("pass") + "'}";
     axios.get("http://localhost:4567/holaJson?" + params)
